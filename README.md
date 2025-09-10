@@ -30,11 +30,11 @@ Program
 ```
 import numpy as np
 import matplotlib.pyplot as plt
-Am=6.8
-Ac=13.6
-Fm=529
-Fc=5290
-Fs=52900
+Am=6.9
+Ac=13.8
+Fm=539
+Fc=5390
+Fs=53900
 b=2.5
 t=np.arange(0,2/Fm,1/Fs)
 m=Am*np.cos(2*np.pi*Fm*t)
@@ -50,7 +50,8 @@ plt.plot(t,s)
 
 
 Output Waveform
-<img width="897" height="594" alt="image" src="https://github.com/user-attachments/assets/d92aa1b1-7a1a-4ed6-8d00-f598dc30ce65" />
+<img width="837" height="568" alt="image" src="https://github.com/user-attachments/assets/94dd3901-cca8-4999-9351-57488f2802b9" />
+
 
 
 Tabular Column
