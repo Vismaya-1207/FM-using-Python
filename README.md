@@ -35,7 +35,7 @@ Ac=13.8
 Fm=539
 Fc=5390
 Fs=53900
-b=2.5
+b=2.6
 t=np.arange(0,2/Fm,1/Fs)
 m=Am*np.cos(2*np.pi*Fm*t)
 plt.subplot(3,1,1)
@@ -50,7 +50,11 @@ plt.plot(t,s)
 
 
 Output Waveform
-<img width="837" height="568" alt="image" src="https://github.com/user-attachments/assets/94dd3901-cca8-4999-9351-57488f2802b9" />
+
+
+
+<img width="864" height="579" alt="image" src="https://github.com/user-attachments/assets/088a4591-9816-4868-98af-11498d5eb19f" />
+
 
 
 
